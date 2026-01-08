@@ -121,3 +121,25 @@
 .p {
   color: #627382;
 }
+/* parent-flex  */
+.parent-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+  gap: 20px;
+}
+.deseign {
+  max-width: 1050px;
+  margin: 0px auto;
+}
+.p-g {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  margin: 20px auto;
+}
+.icon-p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
