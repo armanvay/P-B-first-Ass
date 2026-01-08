@@ -5,7 +5,7 @@
 /* header-section  */
 .header-main {
   border: 2px solid black;
-  max-width: 1050px;
+  max-width: 100%;
   margin: 0px auto;
   padding: 16px;
 }
@@ -95,12 +95,17 @@
 .green-text {
   color: #30b868;
 }
+
+/* card  */
 .img-soon {
   padding: 20px;
   justify-content: center;
   align-items: center;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 120px;
+}
+.img-soon:hover {
+  transform: scale(1.15);
 }
 .img-prent {
   display: flex;
@@ -142,4 +147,58 @@
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+}
+.mani-part-in {
+  max-width: 1050px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #f7f6f2;
+  border-radius: 5px;
+  margin-bottom: 120px;
+}
+.h1 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+/* footer */
+.footer {
+  background-color: #001931;
+  color: white;
+  padding: 40px 10% 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 80px;
+  text-align: center;
+}
+
+.footer-logo img {
+  height: 50px;
+}
+
+.social-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.icons a {
+  color: white;
+  margin-left: 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-divider {
+  border: 0;
+  border-top: 1px solid #1a2e44;
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
 }
